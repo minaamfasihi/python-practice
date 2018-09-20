@@ -37,3 +37,15 @@ matrix = [l1, l2, l3]
 print(matrix[0][1]) # output: 2
 
 first_col = [row[0] for row in matrix] # for every row, grab its first element. Output: [1, 4, 7]
+
+new_list = [0] * 3
+print(new_list) # output: [0, 0, 0]
+
+unsorted = [1, 4, 9, 2]
+# sorted method doesnt change the list
+print(sorted(unsorted)) # [1, 4, 9, 2]
+# print(unsorted)
+unsorted = [1, 4, 9, 2]
+# .sort changes the list
+unsorted.sort()
+print(unsorted)
