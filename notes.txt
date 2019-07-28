@@ -1,0 +1,22 @@
+when you put an int and float in an expression, the int is implicitly converted to float.
+int division in python 3 always produces a floating point result.
+use input() function to read data from user. it returns a string.
+
+Functions:
+def add():
+	return 'add'
+
+add()
+
+Loops and iteration:
+n = 5
+while n > 0:
+	print(n)
+	n = n - 1
+
+break and continue are available to break and skip to next iteration of loop respectively.
+
+Definite loops:
+They iterate through the members of a set.
+
+Strings:
